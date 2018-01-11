@@ -1,22 +1,20 @@
-
 package Chapter2;
 
 import java.util.Scanner;
 
 /**
  * Program to calculate the area and volume of a cylinder
- * 
+ *
  * @author Maxwell Meckling
  */
-public class C2_2 
-{
+public class C2_2 {
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in); //Scanner to read user input
         System.out.println("Enter the radius and length of a cylinder. ");
         System.out.print("For example, 5.5 12: "); //Take user input for radius and length
@@ -27,6 +25,5 @@ public class C2_2
         System.out.println("The area is " + area);
         System.out.println("The volume is " + volume);
 
-    
     }
 }

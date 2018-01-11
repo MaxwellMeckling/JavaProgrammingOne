@@ -1,22 +1,20 @@
-
 package Chapter2;
 
 import java.util.Scanner;
 
 /**
  * Program to convert from Celsius to Fahrenheit
- * 
+ *
  * @author Maxwell Meckling
  */
-public class C2_1 
-{
+public class C2_1 {
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in); //scanner object to read from console
         System.out.print("Enter a degree in Celsius: ");
         double celsius = input.nextDouble();
