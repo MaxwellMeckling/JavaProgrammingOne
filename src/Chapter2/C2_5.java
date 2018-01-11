@@ -1,22 +1,20 @@
-
 package Chapter2;
 
 import java.util.Scanner;
 
 /**
  * Program to calculate the tip for a meal based on one's gratitude in percent
- * 
+ *
  * @author Maxwell Meckling
  */
-public class C2_5 
-{
+public class C2_5 {
+
     /**
      * Main Method
-     * 
+     *
      * @param args arguments from command line prompt
      */
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in); //scanner object to read from console
         System.out.println("Enter the subtotal in dollars and gratuity rate in percent.");
         System.out.print("For example, 10 15: ");
