@@ -8,8 +8,7 @@ import java.util.Scanner;
  *
  * @author Maxwell Meckling
  */
-public class C4_18 
-{
+public class C4_18 {
 
     /**
      * Main Method
