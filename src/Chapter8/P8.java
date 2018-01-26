@@ -52,6 +52,7 @@ public class P8 {
      *
      * @param arr array to search
      * @param s string to search for
+     * @return returns the position of the array
      */
     public static int arrSearch(double[][] arr, String s) {
         if (s.equalsIgnoreCase("A")) {
